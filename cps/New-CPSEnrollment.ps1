@@ -31,6 +31,6 @@ function New-CPSEnrollment
         return $Result
     }
     catch {
-        throw $_.Exception
+        throw $_
     }  
 }
